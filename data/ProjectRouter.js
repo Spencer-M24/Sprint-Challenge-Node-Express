@@ -148,15 +148,7 @@ ProjectRouter.put("/:id",async(req,res)=>{
     }catch(error){
     
     res.status(500).json({error:"Record can't be updated in the database"})
-
-
-  }
-
-
-})
-
-
-            
+}})
 
 // Exporting out
 
